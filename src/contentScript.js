@@ -2,5 +2,7 @@ setInterval(() => {
     var bonusPoints = document.querySelector(".community-points-summary > *:nth-child(2) button")
     if (bonusPoints) {
         bonusPoints.click()
+        console.log("hi")
     }
-}, 3000)
+    console.log("running")
+}, 1000)

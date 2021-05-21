@@ -4,7 +4,7 @@
   "author": "Rithvik <rbhogavilli@gmail.com>",
   "manifest_version": 2,
   "content_scripts": [{
-    "matches": ["http://*.twitch.tv/*"],
-    "js": ["index.js"]
+    "matches": ["https://*.twitch.tv/*"],
+    "js": ["contentScript.js"]
   }]
 }
