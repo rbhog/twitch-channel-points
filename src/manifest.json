@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "author": "Rithvik <rbhogavilli@gmail.com>",
   "manifest_version": 2,
-  "content-scripts": [{
+  "content_scripts": [{
     "matches": ["http://*.twitch.tv/*"],
     "js": ["index.js"]
   }]
