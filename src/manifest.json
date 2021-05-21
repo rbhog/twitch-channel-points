@@ -1,0 +1,12 @@
+{
+  "name": "twitch-channel-points",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/rbhog/twitch-channel-points.git",
+  "author": "Rithvik <rbhogavilli@gmail.com>",
+  "manifest_version": 2,
+  "content-scripts": [{
+    "matches": ["http://*.twitch.tv/*"],
+    "js": ["index.js"]
+  }]
+}
